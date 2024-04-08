@@ -1,11 +1,19 @@
 api_base: "/v1"
 deployment_config:
+<<<<<<< HEAD
   - deployment_name: "yuehuang-gpt-4"
+=======
+  - deployment_name: "TrustLLM-GPT-4"
+>>>>>>> 855582e60b16441a22014514c8e79a2b695b2243
     model_name: "gpt-4-1106-preview"
     endpoint: "https://yuehuang.openai.azure.com/"
     api_key: "0bdff7a6d75349b7879fa6f0787fdd4c"
     api_version: "2023-03-15-preview"
+<<<<<<< HEAD
   - deployment_name: "yuehuang-gpt-4"
+=======
+  - deployment_name: "TrustLLM-GPT-4"
+>>>>>>> 855582e60b16441a22014514c8e79a2b695b2243
     model_name: "gpt-4-0125-preview"
     endpoint: "https://yuehuang-india.openai.azure.com/"
     api_key: "964c0815812e4dd7b8d1fa44ac0a75e6"
